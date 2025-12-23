@@ -1,0 +1,18 @@
+[
+    {
+        "timestamp": "2024-10-28T14:00:09Z",
+        "event_type": "app_switch (Outlook -> Slack)",
+        "target_id": "na",
+        "decision_latency_seconds": 0.5,
+        "warning_displayed": false,
+        "warning_ignored": false
+    },
+    {
+        "timestamp": "2024-10-28T14:00:11Z",
+        "event_type": "link_clicked",
+        "target_id": "msg_053",
+        "decision_latency_seconds": 1.5,
+        "warning_displayed": false,
+        "warning_ignored": false
+    }
+]

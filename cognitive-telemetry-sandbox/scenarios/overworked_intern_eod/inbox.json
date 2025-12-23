@@ -1,0 +1,39 @@
+{
+    "items": [
+        {
+            "id": "email_001",
+            "sender_role": "HR Manager",
+            "subject": "REMINDER: Timesheet Submission Due by 6 PM",
+            "urgency_flag": true,
+            "malicious": false
+        },
+        {
+            "id": "email_002",
+            "sender_role": "Team Lead",
+            "subject": "Slides for tomorrow's standup?",
+            "urgency_flag": false,
+            "malicious": false
+        },
+        {
+            "id": "email_003",
+            "sender_role": "IT Success Team",
+            "subject": "Urgent: VPN Policy Update - Action Required Immediately",
+            "urgency_flag": true,
+            "malicious": true
+        },
+        {
+            "id": "email_004",
+            "sender_role": "Colleague",
+            "subject": "Lunch tomorrow?",
+            "urgency_flag": false,
+            "malicious": false
+        },
+        {
+            "id": "email_005",
+            "sender_role": "Director of Engineering",
+            "subject": "Quick question about the logs",
+            "urgency_flag": true,
+            "malicious": false
+        }
+    ]
+}

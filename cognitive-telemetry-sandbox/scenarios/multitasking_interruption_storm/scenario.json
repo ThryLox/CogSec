@@ -1,0 +1,11 @@
+{
+    "scenario_id": "multitasking_interruption_storm",
+    "title": "Multitasking Interruption Storm",
+    "description": "A project manager dealing with synchronized arrival of Slack messages, emails, and calendar reminders, forcing rapid context switching and split attention.",
+    "theoretical_basis": [
+        "Split Attention Effect",
+        "Cognitive Switch Cost",
+        "Information Overload"
+    ],
+    "expected_risk_level": "High"
+}

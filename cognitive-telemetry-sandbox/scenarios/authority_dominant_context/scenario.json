@@ -1,0 +1,11 @@
+{
+    "scenario_id": "authority_dominant_context",
+    "title": "Authority Dominant Context (CEO Fraud)",
+    "description": "A mid-level employee receives a direct request from a high-authority figure (CEO), testing obedience and the bypass of standard security protocols.",
+    "theoretical_basis": [
+        "Authority Bias",
+        "Obedience to Authority",
+        "Fear of Reprisal"
+    ],
+    "expected_risk_level": "High"
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "timestamp": "2024-10-26T10:00:00Z",
+        "event_type": "baseline_check",
+        "severity": "info",
+        "timed_during_task": false,
+        "visual_similarity_to_previous": false
+    },
+    {
+        "timestamp": "2024-10-26T10:05:00Z",
+        "event_type": "email_arrival",
+        "target_id": "email_012",
+        "severity": "high",
+        "timed_during_task": false,
+        "visual_similarity_to_previous": false
+    }
+]

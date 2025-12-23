@@ -1,0 +1,16 @@
+[
+    {
+        "timestamp": "2024-10-25T02:00:00Z",
+        "workload_level": "Low",
+        "pending_tasks": 0,
+        "alerts_last_10_min": 45,
+        "time_pressure": false
+    },
+    {
+        "timestamp": "2024-10-25T02:01:00Z",
+        "workload_level": "Low",
+        "pending_tasks": 0,
+        "alerts_last_10_min": 52,
+        "time_pressure": false
+    }
+]

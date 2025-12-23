@@ -1,0 +1,10 @@
+{
+    "scenario_id": "calm_morning_low_load",
+    "title": "Calm Morning Baseline",
+    "description": "A fresh analyst starts the day with coffee and low workload, allowing for full System 2 (analytical) processing of emails.",
+    "theoretical_basis": [
+        "System 2 Processing",
+        "Baseline Cognitive Load"
+    ],
+    "expected_risk_level": "Low"
+}

@@ -1,0 +1,32 @@
+{
+    "items": [
+        {
+            "id": "msg_050",
+            "sender_role": "Developer (Slack)",
+            "subject": "Can you check this PR?",
+            "urgency_flag": false,
+            "malicious": false
+        },
+        {
+            "id": "msg_051",
+            "sender_role": "Client (Email)",
+            "subject": "URGENT: Production Issue",
+            "urgency_flag": true,
+            "malicious": false
+        },
+        {
+            "id": "msg_052",
+            "sender_role": "Calendar",
+            "subject": "Meeting in 5 minutes: Board Prep",
+            "urgency_flag": true,
+            "malicious": false
+        },
+        {
+            "id": "msg_053",
+            "sender_role": "Unknown (Slack DM)",
+            "subject": "Hey, is this file supposed to be public? [link]",
+            "urgency_flag": true,
+            "malicious": true
+        }
+    ]
+}

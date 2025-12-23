@@ -1,0 +1,26 @@
+[
+    {
+        "timestamp": "2024-10-25T02:00:18Z",
+        "event_type": "alert_dismissed",
+        "target_id": "alert_001",
+        "decision_latency_seconds": 0.5,
+        "warning_displayed": false,
+        "warning_ignored": false
+    },
+    {
+        "timestamp": "2024-10-25T02:00:19Z",
+        "event_type": "alert_dismissed",
+        "target_id": "alert_002",
+        "decision_latency_seconds": 0.4,
+        "warning_displayed": false,
+        "warning_ignored": false
+    },
+    {
+        "timestamp": "2024-10-25T02:01:02Z",
+        "event_type": "alert_dismissed",
+        "target_id": "alert_003",
+        "decision_latency_seconds": 0.6,
+        "warning_displayed": true,
+        "warning_ignored": true
+    }
+]

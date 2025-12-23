@@ -1,0 +1,18 @@
+{
+    "items": [
+        {
+            "id": "email_020",
+            "sender_role": "Internal Comms",
+            "subject": "Weekly Newsletter",
+            "urgency_flag": false,
+            "malicious": false
+        },
+        {
+            "id": "email_021",
+            "sender_role": "Unknown External",
+            "subject": "CONGRATS YOU WON!!",
+            "urgency_flag": true,
+            "malicious": true
+        }
+    ]
+}

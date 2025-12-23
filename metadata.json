@@ -1,0 +1,5 @@
+{
+  "name": "Cognitive Threat Modeling Assistant (CTMA)",
+  "description": "An interactive tool that analyzes simulated cybersecurity telemetry through the lens of cognitive science and human factors, modeling human cognition as an attack surface.",
+  "requestFramePermissions": []
+}

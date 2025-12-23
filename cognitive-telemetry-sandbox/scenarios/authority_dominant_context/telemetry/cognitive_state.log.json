@@ -1,0 +1,16 @@
+[
+    {
+        "timestamp": "2024-10-26T10:00:00Z",
+        "workload_level": "Medium",
+        "pending_tasks": 3,
+        "alerts_last_10_min": 0,
+        "time_pressure": false
+    },
+    {
+        "timestamp": "2024-10-26T10:05:05Z",
+        "workload_level": "High (Anxiety Spike)",
+        "pending_tasks": 3,
+        "alerts_last_10_min": 0,
+        "time_pressure": true
+    }
+]

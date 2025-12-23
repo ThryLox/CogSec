@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Telemetry Log",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "timestamp": {
+                "type": "string",
+                "format": "date-time"
+            }
+        },
+        "required": [
+            "timestamp"
+        ],
+        "additionalProperties": true
+    },
+    "description": "General schema for telemetry logs (interaction, cognitive, environment). Validates that it is an array of objects with timestamps."
+}

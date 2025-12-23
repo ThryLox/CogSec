@@ -1,0 +1,26 @@
+[
+    {
+        "timestamp": "2024-10-24T17:30:10Z",
+        "event_type": "email_opened",
+        "target_id": "email_001",
+        "decision_latency_seconds": 5,
+        "warning_displayed": false,
+        "warning_ignored": false
+    },
+    {
+        "timestamp": "2024-10-24T17:30:25Z",
+        "event_type": "email_opened",
+        "target_id": "email_003",
+        "decision_latency_seconds": 2,
+        "warning_displayed": true,
+        "warning_ignored": true
+    },
+    {
+        "timestamp": "2024-10-24T17:30:28Z",
+        "event_type": "link_clicked",
+        "target_id": "email_003",
+        "decision_latency_seconds": 3,
+        "warning_displayed": false,
+        "warning_ignored": false
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "timestamp": "2024-10-26T10:05:02Z",
+        "event_type": "email_opened",
+        "target_id": "email_012",
+        "decision_latency_seconds": 15,
+        "warning_displayed": true,
+        "warning_ignored": true
+    },
+    {
+        "timestamp": "2024-10-26T10:05:20Z",
+        "event_type": "link_clicked (Reply/Action)",
+        "target_id": "email_012",
+        "decision_latency_seconds": 18,
+        "warning_displayed": true,
+        "warning_ignored": true
+    }
+]

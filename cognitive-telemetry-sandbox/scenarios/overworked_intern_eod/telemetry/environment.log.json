@@ -1,0 +1,25 @@
+[
+    {
+        "timestamp": "2024-10-24T17:30:00Z",
+        "event_type": "baseline_check",
+        "severity": "info",
+        "timed_during_task": false,
+        "visual_similarity_to_previous": false
+    },
+    {
+        "timestamp": "2024-10-24T17:30:05Z",
+        "event_type": "email_arrival",
+        "target_id": "email_001",
+        "severity": "normal",
+        "timed_during_task": false,
+        "visual_similarity_to_previous": false
+    },
+    {
+        "timestamp": "2024-10-24T17:30:20Z",
+        "event_type": "email_arrival",
+        "target_id": "email_003",
+        "severity": "high_urgency",
+        "timed_during_task": true,
+        "visual_similarity_to_previous": true
+    }
+]

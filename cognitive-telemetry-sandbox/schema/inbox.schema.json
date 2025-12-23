@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Inbox / Alerts Stimuli",
+    "type": "object",
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "description": "Unique ID for the item"
+                    },
+                    "sender_role": {
+                        "type": "string",
+                        "description": "Role of the sender (e.g., HR, IDS System)"
+                    },
+                    "subject": {
+                        "type": "string",
+                        "description": "Subject line or alert title"
+                    },
+                    "urgency_flag": {
+                        "type": "boolean",
+                        "description": "Whether visual urgency indicators are present"
+                    },
+                    "malicious": {
+                        "type": "boolean",
+                        "description": "Whether the item is actually malicious (ground truth)"
+                    }
+                },
+                "required": [
+                    "id",
+                    "sender_role",
+                    "subject",
+                    "urgency_flag",
+                    "malicious"
+                ]
+            }
+        }
+    },
+    "required": [
+        "items"
+    ]
+}

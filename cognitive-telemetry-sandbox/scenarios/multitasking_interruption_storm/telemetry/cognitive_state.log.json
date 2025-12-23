@@ -1,0 +1,16 @@
+[
+    {
+        "timestamp": "2024-10-28T14:00:00Z",
+        "workload_level": "High",
+        "pending_tasks": 10,
+        "alerts_last_10_min": 5,
+        "time_pressure": true
+    },
+    {
+        "timestamp": "2024-10-28T14:00:08Z",
+        "workload_level": "Extreme (Cognitive Overload)",
+        "pending_tasks": 12,
+        "alerts_last_10_min": 9,
+        "time_pressure": true
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "timestamp": "2024-10-27T09:05:00Z",
+        "event_type": "email_opened",
+        "target_id": "email_021",
+        "decision_latency_seconds": 12,
+        "warning_displayed": true,
+        "warning_ignored": false
+    },
+    {
+        "timestamp": "2024-10-27T09:05:15Z",
+        "event_type": "report_phishing_clicked",
+        "target_id": "email_021",
+        "decision_latency_seconds": 27,
+        "warning_displayed": true,
+        "warning_ignored": false
+    }
+]

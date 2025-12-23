@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Scenario Metadata",
+    "type": "object",
+    "properties": {
+        "scenario_id": {
+            "type": "string",
+            "description": "Unique identifier for the scenario (snake_case)"
+        },
+        "title": {
+            "type": "string",
+            "description": "Human-readable title"
+        },
+        "description": {
+            "type": "string",
+            "description": "Short description of the scenario narrative"
+        },
+        "theoretical_basis": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "List of cognitive psychology concepts modeled"
+        },
+        "expected_risk_level": {
+            "type": "string",
+            "enum": [
+                "Low",
+                "Medium",
+                "High"
+            ],
+            "description": "The expected cognitive risk level"
+        }
+    },
+    "required": [
+        "scenario_id",
+        "title",
+        "description",
+        "theoretical_basis",
+        "expected_risk_level"
+    ]
+}

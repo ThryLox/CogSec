@@ -1,0 +1,9 @@
+[
+    {
+        "timestamp": "2024-10-27T09:00:00Z",
+        "workload_level": "Low",
+        "pending_tasks": 1,
+        "alerts_last_10_min": 0,
+        "time_pressure": false
+    }
+]

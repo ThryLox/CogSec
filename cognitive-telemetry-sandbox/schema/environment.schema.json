@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Environment Context",
+    "type": "object",
+    "properties": {
+        "user_role": {
+            "type": "string",
+            "description": "The simulated role of the user (e.g., SOC Analyst)"
+        },
+        "experience_level": {
+            "type": "string",
+            "description": "The experience level of the user"
+        },
+        "time_of_day": {
+            "type": "string",
+            "pattern": "^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$",
+            "description": "Time of day in HH:MM format"
+        },
+        "baseline_workload": {
+            "type": "string",
+            "description": "Qualitative description of the baseline workload"
+        },
+        "baseline_alert_rate": {
+            "type": "string",
+            "description": "Qualitative description of the baseline alert rate"
+        }
+    },
+    "required": [
+        "user_role",
+        "experience_level",
+        "time_of_day",
+        "baseline_workload",
+        "baseline_alert_rate"
+    ]
+}

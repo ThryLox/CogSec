@@ -1,0 +1,11 @@
+{
+    "scenario_id": "overworked_intern_eod",
+    "title": "Overworked Intern at End of Day",
+    "description": "A junior intern rushing to finish tasks at 5:30 PM faces high cognitive load, time pressure, and a mix of benign and malicious urgent requests.",
+    "theoretical_basis": [
+        "Vigilance Decrement",
+        "Time Pressure (Speed-Accuracy Trade-off)",
+        "Authority Bias"
+    ],
+    "expected_risk_level": "High"
+}

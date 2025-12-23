@@ -1,0 +1,32 @@
+{
+    "items": [
+        {
+            "id": "email_010",
+            "sender_role": "Vendor",
+            "subject": "Invoice #4022",
+            "urgency_flag": false,
+            "malicious": false
+        },
+        {
+            "id": "email_011",
+            "sender_role": "Manager",
+            "subject": "Team Lunch",
+            "urgency_flag": false,
+            "malicious": false
+        },
+        {
+            "id": "email_012",
+            "sender_role": "CEO (External Spoof)",
+            "subject": "Urgent Wire Transfer Request - Confidential",
+            "urgency_flag": true,
+            "malicious": true
+        },
+        {
+            "id": "email_013",
+            "sender_role": "HR",
+            "subject": "Benefits Update",
+            "urgency_flag": false,
+            "malicious": false
+        }
+    ]
+}

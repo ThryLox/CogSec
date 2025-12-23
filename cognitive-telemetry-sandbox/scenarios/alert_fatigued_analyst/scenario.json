@@ -1,0 +1,11 @@
+{
+    "scenario_id": "alert_fatigued_analyst",
+    "title": "Alert Fatigued SOC Analyst",
+    "description": "A senior SOC analyst on a night shift faces a high volume of low-fidelity alerts, leading to desensitization and missed critical signals.",
+    "theoretical_basis": [
+        "Habituation (Desensitization)",
+        "Vigilance Decrement",
+        "Automation Bias"
+    ],
+    "expected_risk_level": "High"
+}

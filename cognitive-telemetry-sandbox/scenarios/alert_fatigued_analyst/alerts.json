@@ -1,0 +1,39 @@
+{
+    "items": [
+        {
+            "id": "alert_001",
+            "sender_role": "IDS System",
+            "subject": "Port Scan Detected (Internal)",
+            "urgency_flag": false,
+            "malicious": false
+        },
+        {
+            "id": "alert_002",
+            "sender_role": "WAF",
+            "subject": "SQL Injection Attempt Blocked",
+            "urgency_flag": false,
+            "malicious": false
+        },
+        {
+            "id": "alert_003",
+            "sender_role": "Endpoint Protection",
+            "subject": "Suspicious PowerShell execution (mimikatz signature)",
+            "urgency_flag": true,
+            "malicious": true
+        },
+        {
+            "id": "alert_004",
+            "sender_role": "IDS System",
+            "subject": "Port Scan Detected (External)",
+            "urgency_flag": false,
+            "malicious": false
+        },
+        {
+            "id": "alert_005",
+            "sender_role": "Firewall",
+            "subject": "Deny Traffic: 192.168.1.55",
+            "urgency_flag": false,
+            "malicious": false
+        }
+    ]
+}
